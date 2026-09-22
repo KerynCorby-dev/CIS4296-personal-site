@@ -1,52 +1,70 @@
-html,
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #130c08;
+    color: #eee5dc;
+    font-family: Georgia, serif;
+}
+p {
+    line-height: 1.8;
+}
+.navbar {
+    background-color: #0c0806;
 }
 
-.section {
-    padding-top: 75px;
+.navbar-brand {
+    color: #d0aa7c;
+    font-size: 30px;
 }
 
-.next {
-    font-size: 65px;
+.navbar .nav-link {
+    color: #eee5dc;
+}
+#home h1 {
+    color: #d0aa7c;
 }
 
-.next a {
-    color: rgb(33, 37, 41);
+#home .lead {
+    color: #cbbdaf;
 }
 
-.arrow-next {
-    color: var(--bs-primary) !important;
+.profile-photo {
+    max-height: 600px;
+    object-fit: contain;
 }
 
-.arrow-next:hover {
-    color: var(--bs-primary-dark) !important;
+.section-label {
+    color: #d0aa7c;
+    font-size: 13px;
+    letter-spacing: 3px;
 }
 
-.nav-item:hover {
-    background-color: var(--bs-primary-dark)
+#about,
+#contact {
+    background-color: #29170d;
 }
 
-.language-wrapper img,
-.contact-wrapper a {
-    height: 60px;
-    transition-duration: 0.3s;
-    transition-property: all;
+.btn-primary {
+    background-color: #d0aa7c;
+    border-color: #d0aa7c;
+    color: #130c08;
+    border-radius: 0;
 }
 
-.language-wrapper img:hover,
-.contact-wrapper a:hover {
-    transform: scale(1.2);
+.btn-outline-primary {
+    border-color: #d0aa7c;
+    color: #d0aa7c;
+    border-radius: 0;
 }
 
-.class-card {
-    background-color: #eeeeee;
-    color: black;
-    transition-property: all;
-    transition-duration: 0.3s;
+.project-tools {
+    color: #d0aa7c;
+    font-size: 14px;
 }
 
-.class-card:hover {
-    background-color: var(--bs-primary);
-    color: white;
+.list-group-item {
+    border-color: #72573d;
+}
+.profile-photo {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
 }
